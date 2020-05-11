@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Sen:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
+/* Navbar */
+.brand-logo {
+    font-family: 'Sen', sans-serif;
+}
+
+
+/* Parallax */
+.parallax-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+    color: white;
+}
+
+.parallax-container .parallax img {
+    height: 50px;
+}
+
+.parallax-container h3 {
+    margin-top: 100px;
+    text-align: right;
+    margin-right: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.bg {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: right;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+/* About Me */
+#about img {
+    height: 300px;
+    width: 100%;
+}
+
+/* Skill */
+
+#skill .parallax-container {
+    color: black;
+    height: auto;
+}
+
+#skill .row {
+    margin-top: 50px;
+}
+
+#skill .card-panel {
+    height: 270px;
+}
+
+/* Portfolio */
+#portfolio .card-panel img {
+    height: 100%;
+    width: 100%;
+}
+
+#certificate .card-panel {
+    height: 250px;
+}
+
+#certificate .card-panel img {
+    height: 150px;
+    width: 100%;
+}
+
+#contact a {
+    color: black;
+}
+
+.fab {
+    margin-right: 20px;
+    font-size: 30px!important;
+}
+
+@media (max-width: 768px) {
+    .parallax-container {
+        height: 400px;
+    }
+
+    .parallax-container .parallax img {
+        padding-left: 100px;
+    }
+
+    .parallax-container h3 {
+        font-size: 35px;
+        margin-top: 120px;
+        margin-right: 35px!important;
+    }
+
+    .parallax-container p {
+        margin-right: 10px;
+        font-size: 15px;
+
+    }
+}

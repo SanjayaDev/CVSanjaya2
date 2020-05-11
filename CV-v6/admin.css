@@ -1,0 +1,10 @@
+.card-panel img {
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .brand-logo {
+        font-size: 20px!important;
+    }
+}

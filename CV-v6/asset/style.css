@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+
+
+.navbar-nav {
+    display: inline-block;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: 'Viga', sans-serif;
+}
+
+
+.nav-link {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.jumbotron {
+    background-image: url(image/saya/saya.jpg);
+    height: 540px;
+    text-align: center;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .4;
+}
+
+.jumbotron h3 {
+    color: #fff;
+    font-family: 'Viga', sans-serif;
+    font-size: 35px;
+    padding-top: 170px;
+    padding-left: 50px;
+}
+
+.panel {
+    margin-top: -100px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+}
+
+.panel img {
+    height: 150px;
+    width: 150px;
+    padding-right: 20px;
+}
+
+.panel h4 {
+    padding-top: 20px;;
+}
+
+.saya {
+    margin-top: 100px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+
+.saya .foto-saya {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.saya img {
+    height: 75px;
+}
+
+.saya h3 {
+    font-family: 'Viga', sans-serif;
+    padding-top: 10px;
+}
+
+.work {
+    margin-top: 100px;
+    display: block;
+    background-color: grey;
+}
+
+.work h3,
+.work h6,
+.work h5 {
+    text-align: center!important;
+    padding-top: 10px;
+    font-family: 'Viga', sans-serif;
+}
+
+.work img {
+    display: block;
+    height: 150px;
+    margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .jumbotron {
+        background-position-x: -150px;
+        height: 440px;
+    }
+
+    .jumbotron h3 {
+        font-size: 27px;
+        padding-left: 100px;
+        padding-top: 150px;
+    }
+
+    .panel {
+        margin-top: -150px;
+    }
+
+    .panel h4 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
